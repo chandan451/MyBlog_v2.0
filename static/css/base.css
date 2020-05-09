@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    border-bottom: 1px solid #999;
+    border-bottom: 4px solid #999;
     margin-bottom: 2rem;
     display: flex;
 }
@@ -12,15 +12,62 @@ header {
 header h1 a {
     color: blue;
     text-decoration: none;
+
+}
+
+.button{
+    display: inline-block;
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius:9px;
+}
+
+.button2{
+    background-color: white;
+    border: 2px solid blue;
+    color: black;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.2s;
+}
+.button2:hover {
+    background-color: #008CBA; 
+    color: white;
+}
+.button3{
+    background-color: white;
+    border: 2px solid blue;
+    color: black;
+    padding: 4px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.2s;
+}
+.button3:hover {
+    background-color: #008CBA; 
+    color: white;
 }
 
 .nav-left {
+    display: flex;
     margin-right: auto;
 }
 
 .nav-right {
-    display: flex;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    margin-right: 2rem;
+    font-size: 27px
 }
 
 .post-entry {
@@ -29,19 +76,19 @@ header h1 a {
 
 .post-entry h2{
     margin: 0.5rem 0;
-}
+ post-entrycolor: blueviolet;
+ }
 
-.post-entry h2 a,
-.post-entry h2 a:visited { 
+.post-entry h2 a{ 
     color: blueviolet;
     text-decoration: none;
+}
+
+.post-entry h2 a:hover {
+    color: purple;
 }
 
 .post-entry p{
     margin: 0;
     font-weight: 400;
-}
-
-.post-entry h2 a:hover {
-    color: purple;
 }

@@ -3,8 +3,15 @@
 {% block content %}
   {% for post in object_list %}
     <div class='post-entry'>
-        <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
+        <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2> 
         <p>{{ post.body }}</p>
+        
+        {% if post.author == user %} 
+        <p>My Post</p>
+        {% else %} 
+        <p>posted by: <i>{{ post.author }}</i></p>
+        {% endif %}
+   
     </div>
   {% endfor %}
 {% endblock content %}
