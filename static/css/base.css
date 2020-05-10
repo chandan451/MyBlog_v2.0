@@ -10,8 +10,9 @@ header {
 }
 
 header h1 a {
-    color: blue;
+    color: tomato;
     text-decoration: none;
+    font-size: 54px;
 
 }
 
@@ -80,12 +81,12 @@ header h1 a {
  }
 
 .post-entry h2 a{ 
-    color: blueviolet;
+    color: dodgerblue;
     text-decoration: none;
 }
 
 .post-entry h2 a:hover {
-    color: purple;
+    color: slateblue;
 }
 
 .post-entry p{
