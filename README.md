@@ -19,6 +19,6 @@ Create SuperUser
 python manage.py createsuperuser
 ```
 
-After all these steps , you can start testing and developing this project and can directly host it in any hosting platform. 
+After all these steps, you can start testing and developing this project and can directly host it in any hosting platform. 
 
 #### That's it! You are ready to go, Happy Coding!
