@@ -6,7 +6,6 @@ Install Dependencies
 
 ```
 pip3 install Django==2.1
-pip3 install gunicorn==19.9.0
 ```
 
 Set Database (Make Sure you are in directory same as manage.py)
