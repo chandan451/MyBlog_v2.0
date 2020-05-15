@@ -14,7 +14,7 @@ pip3 install pytz
 ```
 *Add you secret key for encryption in the secret_key.txt file
 
-*Change the database details as per your local Database
+*Change the Database details as per your local Database in /blog_project/settings.py
 
 Set Database (Make Sure you are in directory same as manage.py)
 ```
