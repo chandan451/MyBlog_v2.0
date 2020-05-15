@@ -12,6 +12,8 @@ pip3 install dj-database-url
 pip3 install psycopg2
 pip3 install pytz
 ```
+Add you secret key for encryption in the secret_key.txt file
+Change the database details as per your local Database
 
 Set Database (Make Sure you are in directory same as manage.py)
 ```
