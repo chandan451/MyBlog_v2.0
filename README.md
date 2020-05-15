@@ -6,6 +6,11 @@ Install Dependencies
 
 ```
 pip3 install Django==2.1
+pip3 install gunicorn
+pip3 install whitenoise
+pip3 install dj-database-url
+pip3 install psycopg2
+pip3 install pytz
 ```
 
 Set Database (Make Sure you are in directory same as manage.py)
