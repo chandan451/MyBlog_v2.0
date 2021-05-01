@@ -6,8 +6,8 @@ Install Dependencies
 
 ```
 pip3 install Django==2.1
-pip3 install gunicorn
-pip3 install whitenoise
+pip3 install gunicorn==19.9.0
+pip3 install whitenoise==3.3.1
 pip3 install dj-database-url
 pip3 install psycopg2
 pip3 install pytz
